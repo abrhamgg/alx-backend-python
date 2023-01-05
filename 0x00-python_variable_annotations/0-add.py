@@ -3,7 +3,8 @@
 """add module
 """
 
-def add(a: float, b:float) -> float:
+
+def add(a: float, b: float) -> float:
     """function that adds two numbers and returns a float
 
     Args:
