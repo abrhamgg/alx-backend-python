@@ -4,7 +4,8 @@ import math
 
 
 def floor(n: float) -> int:
-    """floor -> which takes a float n as argument and returns the floor of the float.
+    """floor -> which takes a float n as argument and
+    returns the floor of the float.
 
     Args:
         n (float): input number
@@ -12,4 +13,4 @@ def floor(n: float) -> int:
     Returns:
         int: floor of the input number,
     """
-    return math.floor(n)
+    return int(n)
