@@ -2,6 +2,7 @@
 """mypy module"""
 from typing import Tuple, List
 
+
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """function to zoom an array"""
     zoomed_in: List = [
