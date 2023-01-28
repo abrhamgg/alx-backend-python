@@ -7,7 +7,7 @@ from nose.tools import assert_equal
 
 
 class TestAccessNestedMap(unittest.TestCase):
-    """test for the function access_nested_map"""
+    """test for utility module"""
     """TODO: understand decorators first"""
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
@@ -15,4 +15,5 @@ class TestAccessNestedMap(unittest.TestCase):
         ({"a": {"b": 2}}, ("a", "b"), 2)
     ])
     def test_access_nested_map(self, nested_map, sequence, expected):
+        """test for access nested map function"""
         assert_equal(access_nested_map(nested_map, sequence), expected)
