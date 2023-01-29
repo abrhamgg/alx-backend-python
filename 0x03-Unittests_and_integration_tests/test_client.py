@@ -1,5 +1,5 @@
 #!/usr/bin/env pytohn3
-"""test_github_org_client"""
+"""test _github_org_client"""
 from typing import Dict
 import unittest
 from unittest.mock import MagicMock, patch, Mock
