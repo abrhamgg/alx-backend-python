@@ -1,4 +1,4 @@
-#!/usr/bin/env pytohn3
+#!/usr/bin/env python3
 """test _github_org_client"""
 from typing import Dict
 import unittest
